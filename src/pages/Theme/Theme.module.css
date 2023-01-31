@@ -1,0 +1,41 @@
+.mainThemePage {
+  margin-top: 20px;
+  border: 8px solid red;
+  width: 50%;
+  height: 300px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: black;
+}
+.mainThemePage h1 {
+  text-align: center;
+}
+.btnGroup {
+  text-align: center;
+}
+.btnGroup button,
+.darkBtnGroup button {
+  margin: 30px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.darkTheme {
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  margin-top: 20px;
+  border: 8px solid red;
+  width: 50%;
+  height: 300px;
+  border-radius: 20px;
+}
+.darkBtnGroup button {
+  border: 4px solid red;
+  color: #FFFFFF;
+  background-color: black;
+}

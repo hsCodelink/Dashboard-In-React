@@ -1,0 +1,15 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+.icon {
+  margin-right: 10px;
+}
+.progressBarline h5 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #aeaeae;
+}

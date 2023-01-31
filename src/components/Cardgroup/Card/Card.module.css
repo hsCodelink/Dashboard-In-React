@@ -1,0 +1,84 @@
+.cardContent .topContent {
+  display: flex;
+  justify-content: space-between;
+}
+.leftContent h3 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 7px;
+}
+.leftContent h4 {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 31px;
+}
+.bottomContent h6 {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.subCard {
+  padding: 20px 10px;
+}
+.subCard:nth-child(odd) {
+  background: #0a5f59;
+  box-shadow: 4px 4px 10px #1e617a;
+  border-radius: 12px;
+  color: #dfebe9;
+}
+.subCard:nth-child(1) .rightContent .shoppingIcon,
+.subCard:nth-child(1) .rightContent .calendarIcon  {
+  display: none;
+}
+.subCard:nth-child(2) .rightContent .groupIcon,
+.subCard:nth-child(2) .rightContent .calendarIcon {
+  display: none;
+}
+.subCard:nth-child(3) .rightContent .groupIcon,
+.subCard:nth-child(3) .rightContent .shoppingIcon{
+  display: none;
+}
+.subCard:nth-child(4) .rightContent .groupIcon,
+.subCard:nth-child(4) .rightContent .shoppingIcon{
+  display: none;
+}
+.subCard:nth-child(even) {
+  background: #fdcf6f;
+  box-shadow: 4px 4px 10px #1e617a;
+  border-radius: 12px;
+}
+.subCard:nth-child(4) {
+  background: #252b42;
+  box-shadow: 4px 4px 10px #1e617a;
+  border-radius: 12px;
+  color: #dfebe9;
+}
+.subCard:nth-child(even) .bottomContent span {
+  display: none;
+}
+.subCard:nth-child(even) {
+  padding: 25px 10px;
+}
+.groupIcon,
+.shoppingIcon,
+.calendarIcon {
+  background: #dfebe9;
+  font-size: 35px;
+  border-radius: 50%;
+  padding: 3px;
+  color: #0a5f59;
+}
+.bottomContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomContent .rightArrow {
+  font-size: 25px;
+  margin-right: 10px;
+}

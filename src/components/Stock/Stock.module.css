@@ -1,0 +1,26 @@
+.mainStockSection {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: 2.5fr 1fr;
+}
+.mainStockSection .leftChartSection,
+.mainStockSection .rightSection{
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+}
+.mainStockSection .chartHeading {
+  display: grid;
+  grid-template-columns: 230px 350px;
+}
+.chartHeading h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.0111px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #000000;
+  text-align: center;
+}

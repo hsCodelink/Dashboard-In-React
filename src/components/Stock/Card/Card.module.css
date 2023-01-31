@@ -1,0 +1,20 @@
+.mainCard {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  padding: 10px 20px;
+  align-items: center;
+}
+.nameWrapper a {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #11263c;
+}
+.nameWrapper {
+  padding: 30px;
+  border-bottom: 1px solid #ece9f1;
+}
+.mainCard:last-child .nameWrapper{
+  border: none;
+}

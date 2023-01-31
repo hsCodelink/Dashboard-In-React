@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #dfebe9 !important;
+  font-size: 16px;
+}
+
+/* .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 15px;
+} */
+.container {
+  width: 100%;
+  max-width: 1386px;
+  margin: 0 auto;
+  padding: 15px 15px;
+  background-color: #dfebe9;
+}
+.app {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+  background-color: #dfebe9 !important ;
+}
+.main {
+  padding: 0 25px;
+}
+.sideMenu-container {
+  padding: 15px 15px;
+  width: 100%;
+  max-width: 1386px;
+  margin: 0 auto;
+  background-color: #dfebe9;
+}
+a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+}
+
+
+/* Nunito font family : */
+
+@font-face {
+  font-family: "Nunito";
+  font-size: 400;
+  src: url("../font/Nunito/static/Nunito-Regular.ttf");
+}
+/* Inter font family : */
+
+@font-face {
+  font-family: "Inter";
+  font-size: 500;
+  src: url("../font/Inter/static/Inter-Medium.ttf");
+}
+
+/* Poppins font family : */
+@font-face {
+  font-family: "Poppins";
+  font-size: 400;
+  src: url("../font/Poppins/static/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-size: 600;
+  src: url("../font/Poppins/static/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-size: 500;
+  src: url("../font/Poppins/static/Poppins-Medium.ttf");
+}

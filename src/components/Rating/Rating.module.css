@@ -1,0 +1,37 @@
+.mainRatingSection {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftSection{
+  padding: 30px 20px;
+  background: #ffffff;
+  border-radius: 17.0118px;
+}
+.rightSection {
+  padding: 30px 20px;
+}
+.topWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.heading {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16.0111px;
+  line-height: 24px;
+  color: #000000;
+}
+.viewbtn button {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14.01px;
+  line-height: 24px;
+  color: #1d7d81;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}

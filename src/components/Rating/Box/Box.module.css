@@ -1,0 +1,59 @@
+.mainBoxSection {
+  border: 1.06268px solid #dfdbd8;
+  border-radius: 12.7522px;
+  padding: 25px 20px;
+  margin-bottom: 12px;
+}
+
+.ratingBox {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr 0.7fr;
+  justify-content: space-between;
+  align-items: center;
+}
+.ratingContent{
+  text-align: start;
+}
+.ratingContent h2 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+.ratingContent p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 10.0069px;
+  line-height: 15px;
+  color: #aeaeae;
+  margin-top: 7px;
+}
+.ratingStar .star {
+  margin-right: 5px;
+}
+.timeSection h3 {
+  background: #eee6e2;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
+  padding: 4px 8px;
+  text-align: center;
+}
+
+.progressBar
+  div[class="progress-bar-circ-container"]
+  circle[class="progress-bar-track addAnimate"] {
+  stroke: red !important;
+}
+
+.selected {
+  color: orange;
+  cursor: pointer;
+}
+.Unselected {
+  color: black;
+}

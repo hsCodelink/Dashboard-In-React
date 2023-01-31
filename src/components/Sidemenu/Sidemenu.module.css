@@ -1,0 +1,185 @@
+.sideMenuWrapper {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.sideMenuTopBar{
+  position: relative;
+}
+.sideMenuTopBar,
+.sideMenuBottomBar {
+  background-color: #0a5f59;
+  color: #ffffff;
+  padding: 30px 15px;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+}
+.sideMenuBottomBar {
+  border-radius: 0 0 20px 20px !important;
+  background-color: #252b42 !important;
+  transition: 0.5s;
+}
+.profileContent {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.profileContent h2 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  margin: 0;
+}
+.imgWrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+.imgWrapper img {
+  border: 4px solid #dfebe9;
+  border-radius: 50%;
+  padding: 5px;
+}
+.userDetails {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.userDetails h3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #dfebe9;
+  margin-top: 15px;
+}
+.userDetails a {
+  margin-top: 5px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #eaeaea;
+  opacity: 0.3;
+}
+.sideMenuBottomBar ul li {
+  text-align: center;
+  padding: 30px 30px;
+}
+.sideMenuBottomBar ul li a {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #dfebe9;
+  display: flex;
+  padding-left: 25%;
+}
+.sideMenuBottomBar ul li a h4 {
+  font-size: 17px;
+  margin: 0;
+  margin-top: 5px;
+}
+.sideMenuBottomBar span {
+  margin-right: 20px;
+}
+.calendarSection {
+  padding-left: 10%;
+  padding-top: 100px;
+}
+
+.calendarSection div[class="react-calendar"] {
+  border-radius: 20px;
+}
+.calendarSection
+  div[class="react-calendar__month-view__days"]
+  button[class="react-calendar__tile react-calendar__tile--now react-calendar__tile--active react-calendar__tile--range react-calendar__tile--rangeStart react-calendar__tile--rangeEnd react-calendar__tile--rangeBothEnds react-calendar__month-view__days__day"] {
+  border-radius: 50%;
+  background-color: #0a5f59;
+}
+.calendarSection
+  div[class="react-calendar__month-view__days"]
+  button[class="react-calendar__tile react-calendar__tile--active react-calendar__tile--range react-calendar__tile--rangeStart react-calendar__tile--rangeEnd react-calendar__tile--rangeBothEnds react-calendar__month-view__days__day"] {
+  border-radius: 50%;
+  background-color: inherit;
+  color: #0a5f59;
+  border: 1px solid #0a5f59;
+}
+.calendarSection
+  div[class="react-calendar__month-view__days"]
+  button[class="react-calendar__tile react-calendar__tile--active react-calendar__tile--range react-calendar__tile--rangeStart react-calendar__tile--rangeEnd react-calendar__tile--rangeBothEnds react-calendar__month-view__days__day react-calendar__month-view__days__day--weekend"] {
+  border-radius: 50%;
+  background-color: inherit;
+  color: red;
+  border: 1px solid red;
+}
+.calendarSection div[class="react-calendar"] {
+  width: 280px;
+  margin-bottom: 70px;
+}
+.sideMenuBottomBar .active {
+  position: relative;
+  padding: 20px 25%;
+  margin-right: -50px;
+  background-color: #dfebe9;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 17.003px;
+  line-height: 150%;
+  color: #1e617a;
+  border-radius: 50px 0 0 50px;
+}
+
+.sideMenuBottomBar .active::after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #252b42;
+  border-bottom-right-radius: 28px;
+  box-shadow: 0 25px 0 0 #dfebe9;
+}
+
+.sideMenuBottomBar .active::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #252b42;
+  border-top-right-radius: 28px;
+  box-shadow: 0 -25px 0 0 #dfebe9;
+}
+.subMenu {
+  display: none;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 1px 2px 3px 0.6px black;
+  position: absolute;
+  top: 18%;
+  right: 2%;
+}
+
+.subMenu li {
+  padding: 10px 30px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #000000;
+}
+.subMenu li:hover {
+  background-color: #dfebe9;
+  color: #0a5f59;
+  border-radius: 20px;
+}
+.menuIcon{
+  cursor: pointer;
+}
+.menuIcon:hover .subMenu {
+  display: block;
+  cursor: pointer;
+}
