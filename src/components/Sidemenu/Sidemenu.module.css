@@ -3,7 +3,7 @@
   padding: 0;
   align-items: center;
 }
-.sideMenuTopBar{
+.sideMenuTopBar {
   position: relative;
 }
 .sideMenuTopBar,
@@ -12,10 +12,10 @@
   color: #ffffff;
   padding: 30px 15px;
   align-items: center;
-  border-radius: 20px 20px 0 0;
+  border-radius: 0 30px 0 0;
 }
 .sideMenuBottomBar {
-  border-radius: 0 0 20px 20px !important;
+  border-radius: 0 0 30px 0 !important;
   background-color: #252b42 !important;
   transition: 0.5s;
 }
@@ -115,7 +115,7 @@
 }
 .calendarSection div[class="react-calendar"] {
   width: 280px;
-  margin-bottom: 70px;
+  margin-bottom: 85px;
 }
 .sideMenuBottomBar .active {
   position: relative;
@@ -176,7 +176,7 @@
   color: #0a5f59;
   border-radius: 20px;
 }
-.menuIcon{
+.menuIcon {
   cursor: pointer;
 }
 .menuIcon:hover .subMenu {

@@ -5,17 +5,15 @@ import Sidemenu from "../Sidemenu";
 
 const Layout = () => {
   return (
-      <div className="main">
-        <div className="app">
-          <div className="sideMenu-container">
-            <Sidemenu />
-          </div>
-          <div className="dashboard">
-            <Outlet />
-          </div>
-          {/* <Footer/> */}
-        </div>
+    <div className="app">
+      <div className="sideMenu-container">
+        <Sidemenu />
       </div>
+      <div className="dashboard">
+        <Outlet />
+      </div>
+      {/* <Footer/> */}
+    </div>
   );
 };
 

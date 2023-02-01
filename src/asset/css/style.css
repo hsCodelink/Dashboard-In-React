@@ -23,21 +23,12 @@ body {
 }
 .app {
   display: grid;
-  grid-template-columns: 1.5fr 4fr;
+  grid-template-columns: 1fr 4fr;
   background-color: #dfebe9 !important ;
 }
-.main {
-  padding: 0 25px;
-}
-.sideMenu-container {
-  padding: 15px 15px;
-  width: 100%;
-  max-width: 1386px;
-  margin: 0 auto;
-  background-color: #dfebe9;
-}
+
 a {
-  color: #ffffff !important;
+  color: #ffffff ;
   text-decoration: none !important;
 }
 ul {

@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.ratingContent{
+.ratingContent {
   text-align: start;
 }
 .ratingContent h2 {
@@ -56,4 +56,9 @@
 }
 .Unselected {
   color: black;
+}
+.progressBar
+  div[class="progress-bar-circ-container"]
+  div[class="progress-bar-track addAnimate"] {
+  stroke: red !important;
 }

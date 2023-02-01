@@ -35,10 +35,10 @@ const Sidemenu = () => {
             <MenuIcon className={style.mainMenu}/>
             <ul className={style.subMenu}>
               <Link to="#">
-                <li>Setting</li>
+                <li>Login</li>
               </Link>
               <Link to="#">
-                <li>Theme</li>
+                <li>Sign Up</li>
               </Link>
               <Link to="#">
                 <li>Log Out</li>
